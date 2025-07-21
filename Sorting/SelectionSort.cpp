@@ -12,7 +12,7 @@
        int n = v.size();
 
        for(int i=0; i<n-1; i++){
-         int minIndex = i;
+         int minIndex = i; // ith Element Hi Smallest Element hai To Compare Kro
             for( int j=i+1; j<n; j++){
                 if(v[j] < v[minIndex]){
                    minIndex = j;
